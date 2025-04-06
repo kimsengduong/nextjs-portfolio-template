@@ -1,4 +1,4 @@
-import profileData from "@/data/template.json";
+import profileData from "@/data/profile.json";
 
 // Mark as server-only to prevent client-side usage
 // Add this import if you're using Next.js 13+
