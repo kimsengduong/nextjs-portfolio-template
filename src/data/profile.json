@@ -1,0 +1,174 @@
+{
+  "__documentationComment": "Portfolio JSON Template - A structured data format for personal portfolio websites.",
+
+  "basics": {
+    "__comment": "Core information about you displayed in hero section and metadata",
+    "name": "YOUR NAME",
+    "title": "Your Professional Title",
+    "summaries": [
+      "First paragraph of your professional summary. Include years of experience, main areas of expertise, and key specialties.",
+      "Second paragraph highlighting additional strengths, methodologies, and what makes you unique."
+    ],
+    "profileImage": "/profile.png",
+    "resumeUrl": "/Your_Name_CV.pdf",
+    "metaDescription": "SEO description for your portfolio page, 150-160 characters recommended."
+  },
+
+  "about": {
+    "__comment": "Detailed paragraphs about your background, approach and personal qualities",
+    "paragraphs": [
+      "First paragraph about your professional background and approach.",
+      "Second paragraph detailing your technical expertise and notable achievements.",
+      "Third paragraph about personal qualities, languages, or other relevant information."
+    ]
+  },
+
+  "experience": [
+    {
+      "__comment": "Listed in reverse chronological order (most recent first)",
+      "company": "Company Name",
+      "position": "Your Job Title",
+      "period": "Month Year - Month Year",
+      "responsibilities": [
+        "Key achievement or responsibility with measurable results",
+        "Technical implementation or project you completed",
+        "Leadership role or initiative you spearheaded",
+        "Add 3-7 bullet points per position"
+      ]
+    },
+    {
+      "company": "Previous Company Name",
+      "position": "Previous Job Title",
+      "period": "Month Year - Month Year",
+      "responsibilities": [
+        "Notable responsibility or achievement",
+        "Projects or technologies you worked with",
+        "Keep descriptions action-oriented and results-focused"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "__comment": "Featured projects with visual and technical details",
+      "name": "Project Name 1",
+      "color": "from-blue-500 to-blue-600",
+      "title": "Descriptive Project Title",
+      "description": "One concise paragraph explaining the project's purpose and your role.",
+      "features": [
+        "Key technical feature you implemented",
+        "Architecture or design choice you made",
+        "Problem you solved or optimization you achieved",
+        "User experience improvement you delivered"
+      ],
+      "technologies": [
+        "Primary Language",
+        "Framework",
+        "Database",
+        "Notable Libraries/Tools",
+        "Architecture Pattern"
+      ],
+      "link": "https://project-url.com",
+      "github": "https://github.com/username/project",
+      "hasDetailPage": false
+    },
+    {
+      "__comment": "Featured projects with visual and technical details",
+      "name": "Project Name 2",
+      "color": "from-green-500 to-green-600",
+      "title": "Descriptive Project Title",
+      "description": "One concise paragraph explaining the project's purpose and your role.",
+      "features": [
+        "Key technical feature you implemented",
+        "Architecture or design choice you made",
+        "Problem you solved or optimization you achieved",
+        "User experience improvement you delivered"
+      ],
+      "technologies": [
+        "Primary Language",
+        "Framework",
+        "Database",
+        "Notable Libraries/Tools",
+        "Architecture Pattern"
+      ],
+      "link": "https://project-url.com",
+      "github": "https://github.com/username/project",
+      "hasDetailPage": false
+    }
+  ],
+
+  "skills": [
+    {
+      "__comment": "Grouped skills by category",
+      "category": "Programming Languages & Frameworks",
+      "items": ["Language 1", "Language 2", "Framework 1", "Framework 2"]
+    },
+    {
+      "category": "Category Name (e.g., Databases)",
+      "items": ["Skill 1", "Skill 2", "Skill 3"]
+    }
+  ],
+
+  "education": [
+    {
+      "__comment": "Formal education and certifications",
+      "degree": "Degree Name",
+      "institution": "University or Institution Name",
+      "period": "Year - Year",
+      "description": "Brief description of specialization or notable achievements"
+    }
+  ],
+
+  "contact": {
+    "__comment": "Contact information and social media profiles",
+    "email": "your.email@example.com",
+    "phone": "+X XXX XXX XXXX",
+    "socialLinks": {
+      "__comment": "Social media links for professional networking (optional - any link can be omitted)",
+      "github": "https://github.com/yourusername",
+      "linkedin": "https://linkedin.com/in/yourusername",
+      "telegram": "https://t.me/yourusername",
+      "whatsapp": "https://wa.me/yourphonenumber"
+    }
+  },
+
+  "navigation": [
+    {
+      "__comment": "Navigation items in the order they should appear in the menu",
+      "name": "About",
+      "href": "#about"
+    },
+    {
+      "name": "Experience",
+      "href": "#experience"
+    },
+    {
+      "name": "Projects",
+      "href": "#projects"
+    },
+    {
+      "name": "Skills",
+      "href": "#skills"
+    },
+    {
+      "name": "Education",
+      "href": "#education"
+    },
+    {
+      "name": "Contact",
+      "href": "#contact"
+    }
+  ],
+
+  "footer": {
+    "__comment": "Footer information with a {year} placeholder for dynamic year",
+    "copyright": "© {year} YOUR NAME. All rights reserved."
+  },
+
+  "siteConfig": {
+    "__comment": "Optional site-wide configuration",
+    "accentColor": "blue",
+    "darkModeDefault": false,
+    "analyticsId": "G-XXXXXXXXXX"
+  }
+}

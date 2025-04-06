@@ -1,0 +1,40 @@
+{
+  "name": "Project 1",
+  "title": "Project Title",
+  "description": "Brief 1-2 sentence overview of the project highlighting key technologies and accomplishments.",
+  "fullDescription": "A detailed paragraph (3-5 sentences) describing the project's purpose, functionality, and significance. Include information about the problem it solves and its unique features.",
+  "date": "YYYY-MM-DD",
+  "coverImage": "/projects/project-slug/cover.jpg",
+  "images": [
+    "/projects/project-slug/image1.png",
+    "/projects/project-slug/image2.png",
+    "/projects/project-slug/image3.png"
+  ],
+  "color": "from-[color]-500 to-[color]-600",
+  "features": [
+    "Key technical feature you implemented",
+    "Architecture or design choice you made",
+    "Problem you solved or optimization you achieved",
+    "User experience improvement you delivered"
+  ],
+  "technologies": [
+    "Primary Language",
+    "Framework",
+    "Database",
+    "Notable Libraries/Tools",
+    "Architecture Pattern"
+  ],
+  "challenges": [
+    "Technical challenge 1 that was faced during development",
+    "Technical challenge 2 related to data or performance",
+    "Technical challenge 3 related to implementation"
+  ],
+  "solutions": [
+    "Solution implemented for challenge 1 with technical details",
+    "Solution implemented for challenge 2 with approach taken",
+    "Solution implemented for challenge 3 with results"
+  ],
+  "results": "A paragraph summarizing the quantifiable impact and outcomes of the project. Include metrics like performance improvements, user adoption, or business impact.",
+  "link": "https://example.com/project-url",
+  "github": "https://github.com/username/project-repo"
+}

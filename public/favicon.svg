@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="512"
+    height="512" x="0" y="0" viewBox="0 0 24 24" style="enable-background:new 0 0 512 512" xml:space="preserve"
+    class="">
+    <circle r="12" cx="12" cy="12" fill="#000000" shape="circle" transform="matrix(1,0,0,1,0,0)"></circle>
+    <g transform="matrix(0.8999999999999998,0,0,0.8999999999999998,1.2000000000000064,1.2000000000000064)">
+        <path fill="#ffffff"
+            d="M23.751 11.077c-.008-.008-8.027-4.024-8.027-4.024A.5.5 0 0 0 15.5 7h-2a.5.5 0 0 0-.5.5v1a.5.5 0 1 0 1 0V8h1.382l6 3H2.618l6-3H10v.5a.5.5 0 1 0 1 0v-1a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 0-.224.053S.256 11.07.247 11.078A.492.492 0 0 0 0 11.5v2a.5.5 0 0 0 .5.5H1v.5a.5.5 0 0 0 .5.5H2v.5a.5.5 0 0 0 .5.5H3v.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5V16h.5a.5.5 0 0 0 .5-.5V15h.5a.5.5 0 0 0 .5-.5V12h2v2.5a.5.5 0 0 0 .5.5h.5v.5a.5.5 0 0 0 .5.5h.5v.5a.5.5 0 0 0 .5.5h5a.5.5 0 0 0 .5-.5V16h.5a.5.5 0 0 0 .5-.5V15h.5a.5.5 0 0 0 .5-.5V14h.5a.5.5 0 0 0 .5-.5v-2a.492.492 0 0 0-.249-.423zM6 15.5H5v-1H4v-1H3v-1h1v1h1v1h1zm12 0h-1v-1h-1v-1h-1v-1h1v1h1v1h1z"
+            opacity="1" data-original="#303c42" class=""></path>
+    </g>
+</svg>
