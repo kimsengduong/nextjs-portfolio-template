@@ -54,9 +54,9 @@ export default function ContactSection() {
                   </svg>
                 </a>
                 <div className="absolute mb-2 transition-opacity duration-300 transform -translate-x-1/2 opacity-0 pointer-events-none bottom-full left-1/2 group-hover:opacity-100">
-                  <div className="px-2 py-1 text-xs text-white rounded whitespace-nowrap">
+                  <div className="px-2 py-1 text-xs text-gray-800 rounded dark:text-white whitespace-nowrap">
                     GitHub
-                    <div className="absolute transform -translate-x-1/2 border-4 border-transparent top-full left-1/2 border-t-gray-800"></div>
+                    <div className="absolute transform -translate-x-1/2 border-4 border-transparent top-full left-1/2 border-t-gray-800 dark:border-t-white"></div>
                   </div>
                 </div>
               </div>
@@ -81,9 +81,9 @@ export default function ContactSection() {
                   </svg>
                 </a>
                 <div className="absolute mb-2 transition-opacity duration-300 transform -translate-x-1/2 opacity-0 pointer-events-none bottom-full left-1/2 group-hover:opacity-100">
-                  <div className="px-2 py-1 text-xs text-white rounded whitespace-nowrap">
+                  <div className="px-2 py-1 text-xs text-gray-800 rounded dark:text-white whitespace-nowrap">
                     LinkedIn
-                    <div className="absolute transform -translate-x-1/2 border-4 border-transparent top-full left-1/2 border-t-gray-800"></div>
+                    <div className="absolute transform -translate-x-1/2 border-4 border-transparent top-full left-1/2 border-t-gray-800 dark:border-t-white"></div>
                   </div>
                 </div>
               </div>
@@ -108,9 +108,9 @@ export default function ContactSection() {
                   </svg>
                 </a>
                 <div className="absolute mb-2 transition-opacity duration-300 transform -translate-x-1/2 opacity-0 pointer-events-none bottom-full left-1/2 group-hover:opacity-100">
-                  <div className="px-2 py-1 text-xs text-white rounded whitespace-nowrap">
+                  <div className="px-2 py-1 text-xs text-gray-800 rounded dark:text-white whitespace-nowrap">
                     Telegram
-                    <div className="absolute transform -translate-x-1/2 border-4 border-transparent top-full left-1/2 border-t-gray-800"></div>
+                    <div className="absolute transform -translate-x-1/2 border-4 border-transparent top-full left-1/2 border-t-gray-800 dark:border-t-white"></div>
                   </div>
                 </div>
               </div>
@@ -139,9 +139,9 @@ export default function ContactSection() {
                   </svg>
                 </a>
                 <div className="absolute mb-2 transition-opacity duration-300 transform -translate-x-1/2 opacity-0 pointer-events-none bottom-full left-1/2 group-hover:opacity-100">
-                  <div className="px-2 py-1 text-xs text-white rounded whitespace-nowrap">
+                  <div className="px-2 py-1 text-xs text-gray-800 rounded dark:text-white whitespace-nowrap">
                     WhatsApp
-                    <div className="absolute transform -translate-x-1/2 border-4 border-transparent top-full left-1/2 border-t-gray-800"></div>
+                    <div className="absolute transform -translate-x-1/2 border-4 border-transparent top-full left-1/2 border-t-gray-800 dark:border-t-white"></div>
                   </div>
                 </div>
               </div>
