@@ -1,10 +1,10 @@
 # NextJS Portfolio Template
 
 <div align="center">
-  <img src="/docs/portfolio-light-mode.png" alt="Portfolio Template Light Mode" width="600">
+  <img src="/public/docs/portfolio-light-mode.png" alt="Portfolio Template Light Mode" width="600">
   <p><em>Light Mode View</em></p>
   
-  <img src="/docs/portfolio-dark-mode.png" alt="Portfolio Template Dark Mode" width="600">
+  <img src="/public/docs/portfolio-dark-mode.png" alt="Portfolio Template Dark Mode" width="600">
   <p><em>Dark Mode View</em></p>
 </div>
 
