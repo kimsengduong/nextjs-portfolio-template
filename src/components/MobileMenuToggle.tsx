@@ -134,7 +134,7 @@ export default function MobileMenuToggle() {
                 <a
                   href={basics.resumeUrl}
                   download
-                  className="px-3 py-2 rounded-md text-base font-medium text-green-600 hover:bg-green-50 dark:hover:bg-green-900/20 dark:text-green-400 flex items-center gap-2"
+                  className="btn-primary px-3 py-2 rounded-md text-base font-medium flex items-center gap-2"
                   onClick={toggleMenu}
                 >
                   <span>Download CV</span>

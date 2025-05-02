@@ -18,13 +18,13 @@ export default function ContactSection() {
           <div className="flex flex-col justify-center gap-4 mb-8 sm:flex-row">
             <a
               href={`mailto:${contact.email}`}
-              className="px-6 py-3 text-center text-white transition-colors bg-blue-600 rounded-full hover:bg-blue-700"
+              className="px-6 py-3 text-center rounded-full btn-primary"
             >
               Send me an email
             </a>
             <a
               href={`tel:+${contact.phone.replace(/\s+/g, "")}`}
-              className="px-6 py-3 text-center text-white transition-colors bg-green-600 rounded-full hover:bg-green-700"
+              className="px-6 py-3 text-center rounded-full btn-call"
             >
               Call me
             </a>

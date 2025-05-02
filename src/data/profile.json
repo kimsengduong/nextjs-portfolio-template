@@ -52,6 +52,7 @@
     {
       "__comment": "Featured projects with visual and technical details",
       "name": "Project Name 1",
+      "image": "/projects/project1.png",
       "color": "from-blue-500 to-blue-600",
       "title": "Descriptive Project Title",
       "description": "One concise paragraph explaining the project's purpose and your role.",
@@ -75,6 +76,7 @@
     {
       "__comment": "Featured projects with visual and technical details",
       "name": "Project Name 2",
+      "image": null,
       "color": "from-green-500 to-green-600",
       "title": "Descriptive Project Title",
       "description": "One concise paragraph explaining the project's purpose and your role.",

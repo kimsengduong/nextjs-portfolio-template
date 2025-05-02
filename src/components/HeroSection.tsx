@@ -5,18 +5,16 @@ export default function HeroSection() {
   const basics = getProfileSection("basics");
 
   return (
-    <section className="container mx-auto px-6 py-20 flex flex-col items-center">
+    <section className="container flex flex-col items-center px-6 py-20 mx-auto">
       {/* Content section - text and photo */}
-      <div className="w-full max-w-7xl flex flex-col lg:flex-row lg:justify-between lg:items-center mb-12">
+      <div className="flex flex-col w-full mb-12 max-w-7xl lg:flex-row lg:justify-between lg:items-center">
         {/* Text content */}
-        <div className="lg:w-1/2 mb-10 lg:mb-0">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
+        <div className="mb-10 lg:w-1/2 lg:mb-0">
+          <h1 className="mb-4 text-4xl font-bold md:text-5xl">
             {`Hi, I'm `}
-            <span className="text-blue-600 dark:text-blue-400 block md:inline">
-              {basics.name}
-            </span>
+            <span className="block primary-color md:inline">{basics.name}</span>
           </h1>
-          <h2 className="text-xl md:text-2xl mb-6 text-gray-600 dark:text-gray-300">
+          <h2 className="mb-6 text-xl text-gray-600 md:text-2xl dark:text-gray-300">
             {basics.title}
           </h2>
 
@@ -34,8 +32,8 @@ export default function HeroSection() {
         </div>
 
         {/* Photo */}
-        <div className="lg:w-2/5 flex justify-center">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-lg">
+        <div className="flex justify-center lg:w-2/5">
+          <div className="relative w-64 h-64 overflow-hidden border-4 border-white rounded-full shadow-lg md:w-80 md:h-80 dark:border-gray-800">
             <Image
               src={basics.profileImage}
               alt={basics.name}
@@ -49,16 +47,16 @@ export default function HeroSection() {
       </div>
 
       {/* Action buttons - now below both text and photo */}
-      <div className="flex flex-col sm:flex-row gap-4 justify-center">
+      <div className="flex flex-col justify-center gap-4 sm:flex-row">
         <a
           href="#contact"
-          className="rounded-full bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 transition-colors text-center"
+          className="px-6 py-3 text-center rounded-full btn-primary"
         >
           Get in touch
         </a>
         <a
           href="#projects"
-          className="rounded-full border border-gray-300 dark:border-gray-600 hover:bg-neutral-100 dark:hover:bg-neutral-800 px-6 py-3 transition-colors text-center"
+          className="px-6 py-3 text-center rounded-full btn-secondary"
         >
           View my work
         </a>

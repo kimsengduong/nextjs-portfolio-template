@@ -1,10 +1,22 @@
 @import "tailwindcss";
 
+/* Base theme variables */
 :root {
+  /* Main theme colors - essential palette */
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #3b82f6; /* Blue 500 */
+  --primary-hover: #2563eb; /* Blue 600 */
+
+  /* Gray palette - essential shades */
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-600: #4b5563;
+  --gray-800: #1f2937;
 }
 
+/* Theme integration */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -12,25 +24,120 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Dark mode theme - just essential colors */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --primary: #60a5fa; /* Blue 400 for better contrast in dark mode */
+    --primary-hover: #93c5fd; /* Blue 300 */
+
+    /* Gray palette for dark mode - essential shades only */
+    --gray-100: #1f1f1f;
+    --gray-200: #262626;
+    --gray-300: #404040;
+    --gray-600: #a3a3a3;
+    --gray-800: #e5e5e5;
   }
 }
 
+/* Basic element styling - only the essentials */
 html {
   scroll-behavior: smooth;
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
-    scroll-behavior: smooth;
+    scroll-behavior: auto;
   }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(
+    --font-geist-sans,
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif
+  );
+  line-height: 1.5;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Typography - just essential heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(
+    --font-geist-sans,
+    "Inter",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Arial,
+    sans-serif
+  );
+  line-height: 1.2;
+}
+
+/* Code blocks */
+code {
+  font-family: var(
+    --font-geist-mono,
+    "Roboto Mono",
+    SFMono-Regular,
+    Consolas,
+    "Liberation Mono",
+    Menlo,
+    monospace
+  );
+}
+
+.primary-color {
+  color: var(--primary);
+}
+.primary-color-hover {
+  color: var(--primary-hover);
+}
+
+/* Button styles - essential classes */
+.btn-primary {
+  background-color: var(--primary);
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1px solid var(--gray-300);
+  color: var(--foreground);
+}
+
+.btn-secondary:hover {
+  background-color: var(--gray-100);
+}
+
+.btn-call {
+  background-color: var(--color-green-400);
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-call:hover {
+  background-color: var(--color-green-200);
 }
