@@ -1,6 +1,12 @@
 # NextJS Portfolio Template
 
-![Portfolio Template Preview](https://via.placeholder.com/800x400?text=Portfolio+Template+Preview)
+<div align="center">
+  <img src="/docs/portfolio-light-mode.png" alt="Portfolio Template Light Mode" width="600">
+  <p><em>Light Mode View</em></p>
+  
+  <img src="/docs/portfolio-dark-mode.png" alt="Portfolio Template Dark Mode" width="600">
+  <p><em>Dark Mode View</em></p>
+</div>
 
 ## Overview
 
