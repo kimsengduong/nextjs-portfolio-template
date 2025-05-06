@@ -203,4 +203,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Built with [Next.js](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/).
 
-Similar code found with 1 license type
